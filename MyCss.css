@@ -1,0 +1,143 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Century Gothic;
+}
+
+header{
+    background-image :linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url(Mine.jpg); 
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+ul{
+    float: right;          /* to shift all the words towards right side */
+    list-style-type: none; /* to remove circles */   
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+ul li{
+    display: inline-block;
+    
+}
+
+ul li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    
+}
+
+ul li a:hover
+{
+    background-color: white;
+    color: black;
+    transition: 1.5s;
+}
+
+ul li.active a
+{
+    background-color: white;
+    color : black;
+}
+
+.avatar
+{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+     border-radius: 50%;
+    top: -12%;
+    left: 34%;
+    
+
+    
+}
+h1
+{
+     margin: 0;
+    padding: 0 0 20px;
+    text-align: center; 
+    font-size: 22px;
+}
+.logbox
+{
+    font-family: century gothic;
+
+}
+ .logbox input
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.logbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.logbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: red;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.logbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: rgb(84, 199, 238);
+    transition: 1.0s;
+
+}
+.logbox a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: slategrey;
+}
+.tab p
+{
+    position: absolute;
+    color: black;
+    top: 50%;
+    left: 50%;
+    font-family: century gothic;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 5px 15px;
+    background-color: white;
+    cursor: pointer;
+}
+
+    .logbox
+    {
+        margin-top: 20px;
+        width: 320px;   
+        height: 420px; 
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+        color: #fff;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        box-sizing: border-box;
+        padding: 70px 30px;
+        border-radius: 15px;
+    
+    }
+ 
